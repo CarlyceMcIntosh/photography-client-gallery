@@ -5,7 +5,7 @@ const cors = require('cors');
 const authRoutes = require('./routes/auth');
 const galleryRoutes = require('./routes/gallery');
 const uploadRoute = require('./routes/uploadRoute'); 
-
+const galleryRoutes = require('./routes/gallery');
 
 dotenv.config();
 
