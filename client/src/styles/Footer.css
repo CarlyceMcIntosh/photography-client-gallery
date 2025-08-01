@@ -1,0 +1,87 @@
+.footer {
+  background-color: #eee9e2;
+  padding: 4rem 2rem;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+}
+
+/* Instagram handle */
+.footer-instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.footer-instagram p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  color: #5a4c3f;
+}
+
+/* Image grid */
+.footer-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.footer-photo {
+  width: 150px;
+  height: 200px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+/* Bottom nav and icons */
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  font-size: 0.95rem;
+  letter-spacing: 0.15em;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 300;
+}
+
+.footer-copy {
+  flex: 1;
+  font-size: 0.85rem;
+  color: #333;
+  text-align: left;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 1.2rem;
+  font-size: 1rem;
+  color: #5a4c3f;
+  align-items: center;
+}

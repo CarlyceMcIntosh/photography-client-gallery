@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@400;500;700&display=swap');
+
+.gallery-preview-section {
+  background-color: #FEFCF9;
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.gallery-preview-container {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  max-width: 1200px;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.gallery-preview-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  text-align: center;
+}
+
+.gallery-preview-image {
+  width: 100%;
+  height: auto;
+  border: 1px solid #9f8260;
+  object-fit: cover;
+}
+
+.view-gallery-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #6f6459;
+  margin-top: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.gallery-category {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #6f6459;
+  letter-spacing: 0.7px;
+  margin: 0;
+}

@@ -1,0 +1,26 @@
+.banner-section {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #FEFCF9;
+}
+
+.banner-placeholder {
+  width: 100%;
+  height: 300px;
+  border-top: 2px dashed #9f8260;
+  border-bottom: 2px dashed #9f8260;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fffdf9;
+  box-sizing: border-box;
+}
+
+.placeholder-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  color: #9f8260;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
