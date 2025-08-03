@@ -1,0 +1,74 @@
+/* Contact Page Base */
+.contact-page {
+  background-color: #FEFCF9;
+  min-height: 100vh;
+  padding: 4rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Contact Form Container */
+.contact-form-container {
+  background-color: #ECE6E0;
+  padding: 2.5rem;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Playfair Display', serif;
+}
+
+/* Title */
+.contact-form-container h2 {
+  color: #705d4e;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+/* Labels */
+.contact-form-container label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Inputs and Textarea */
+.contact-form-container input,
+.contact-form-container textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: 'Playfair Display', serif;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form-container input:focus,
+.contact-form-container textarea:focus {
+  outline: none;
+  border-color: #705d4e;
+}
+
+/* Button */
+.contact-form-container button {
+  width: 100%;
+  padding: 0.9rem;
+  background-color: #705d4e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: 'Playfair Display', serif;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form-container button:hover {
+  background-color: #5b4b3f;
+}

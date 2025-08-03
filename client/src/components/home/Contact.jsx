@@ -3,7 +3,7 @@ import '../../styles/ContactMe.css';
 
 function ContactMe() {
   return (
-    <section className="contact-section">
+    <section id="contact-section" className="contact-section">
       <div className="contact-box-frame">
         <div className="contact-content">
           <div className="contact-text">
@@ -16,7 +16,7 @@ function ContactMe() {
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
               exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
-            <a href="/contact-form" className="contact-button">Contact Me</a>
+            <a href="/contact-form" className="contact-button">Get in Touch</a>
           </div>
 
           <div className="contact-image">

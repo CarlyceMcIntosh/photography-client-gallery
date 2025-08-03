@@ -4,6 +4,8 @@ import ClientSelector from '../components/admin/ClientSelector'; //imports reusa
 import SidebarTabs from '../components/admin/SideBarTabs';
 import UploadForm from '../components/admin/UploadForm';
 import GalleryView from '../components/admin/GalleryView';
+import Navbar from '../components/home/Navbar';
+import Footer from '../components/home/Footer';
 
 const AdminDashboard = () =>{
   // State to track which client is selected
@@ -12,7 +14,9 @@ const AdminDashboard = () =>{
   const [activeTab, setActiveTab] = useState('upload')
 
   return(
-    <div style={{ padding: '2rem' }}>
+    <>
+    <Navbar/>
+      <div style={{ padding: '2rem' }}>
       <h2>Admin Dashboard</h2>
       {/*ClientSelector component */}
       {/* Pass in current selected client and the function to update it */}
@@ -39,6 +43,9 @@ const AdminDashboard = () =>{
           </div>
         </div>
     </div>
+    <Footer/>
+    </>
+
   );
 };
 export default AdminDashboard;

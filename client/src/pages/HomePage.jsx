@@ -19,9 +19,7 @@ function HomePage() {
         <TestimonialSlider/>
         <ContactMe/> 
         <Footer/>
-        
-
-        
+    
       </div>
       
 
